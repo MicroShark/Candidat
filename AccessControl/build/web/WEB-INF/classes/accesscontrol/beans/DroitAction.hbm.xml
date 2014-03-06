@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="accesscontrol.beans">
+  <class name="accesscontrol.beans.DroitActionBean" table="ca_droit_action">
+    <id column="code" name="code" />
+    <property name="nom"/>
+    <many-to-one name="domaine" column="domaine" class="accesscontrol.beans.DroitDomaineBean" not-null="true"/>
+  </class>
+</hibernate-mapping>

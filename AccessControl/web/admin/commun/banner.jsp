@@ -1,0 +1,1 @@
+<header><img src="<%=application.getContextPath() %>/admin/assets/imgs/hitema_banner.jpg" width="100%" height="100%" /></header>

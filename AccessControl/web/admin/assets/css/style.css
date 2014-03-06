@@ -1,0 +1,187 @@
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+
+html{
+    background: rgba(0,0,0,0.3);
+}
+
+body{
+    width: 75%;
+    min-height: 400px;
+    margin: 40px auto 40px;
+    padding-bottom: 60px;
+    /* color:#000; */
+    border: 1px solid rgba(0,0,0,0.3);
+    background: #FFF;
+    font-family: "Capriola";
+    font-size: 14px;
+}
+
+p{
+    margin: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+hr{
+    width: 40%;
+    margin: 20px auto 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+nav li{
+    background: rgba(0,0,0,0.3);
+    display: block;
+    float: left;
+    width: 25%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    line-height: 45px;
+    transition: all .5s ease;
+}
+
+nav a li:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+nav a:first-child li:hover {
+    background: #21FF08;
+}
+
+nav a:last-child li:hover {
+    background-color: rgba(70, 70, 70, 0.70);
+}
+
+nav a:nth-child(2) li:hover {
+    background: #FFEF08;
+}
+
+nav a:nth-child(3) li:hover {
+    background: #0862FF;
+}
+
+.content{
+    width: 90%;
+    margin: auto ;
+}
+
+input, select{
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
+form input:hover{
+    border: 1px solid #0862FF;
+}
+
+form input:focus{
+    border: 1px solid #21FF08;
+    background: #21FF08;
+    border-radius: 4px;
+}
+
+::-webkit-input-placeholder { color:#000; }
+::-moz-placeholder { color:#000; }   
+:-ms-input-placeholder { color:#000; } 
+input:-moz-placeholder { color:#000; }
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin: 20px auto 20px;
+}
+
+fieldset{
+    margin: auto;
+    width: 100%;
+}
+
+fieldset legend{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 30%;
+    height: 20px;
+}
+
+label+input[type="text"], label+select, label+input[type="radio"]{
+    height: 20px;
+}
+
+input[type="submit"],[type="button"]{
+    cursor: pointer;
+}
+
+form[name="login"]{
+    text-align: center;
+}
+
+form[name="form"] input[type="submit"]{
+    display: inline-block;
+    margin-left: 40%;
+}
+
+form[name="list"] input[type="button"]{
+    display: inline-block;
+    margin-left: 40%;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+table thead{
+    background: #D3D3D3;
+    font-weight: bold;
+}
+
+table tbody{
+    background: #D9D9D9;
+}
+
+table td{
+    min-width: 150px;
+}
+
+.colAction {
+    min-width: 75px;
+    width: 75px;
+}
+
+#h1_salon, .titreVert {
+    color: #21FF08;
+}
+
+#h1_po, .titreJaune{
+    color: #FFEF08;
+}
+
+#h1_candidat, .titreBleu{
+    color: #0862FF;
+}

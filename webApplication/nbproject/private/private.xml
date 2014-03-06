@@ -7,11 +7,6 @@
         <group name="Web service">
             <file>file://192.168.2.19/Users/user/Documents/Projet%20Candidat/webApplication/src/java/actions/INSEEAction.java</file>
         </group>
-        <group name="Projet Candidat">
-            <file>file://192.168.2.19/Users/user/Documents/Projet%20Candidat/webApplication/nbproject/build-impl.xml</file>
-            <file>file://192.168.2.19/Users/user/Documents/Projet%20Candidat/webApplication/src/java/test.java</file>
-            <file>file://192.168.2.19/Users/user/Documents/Projet%20Candidat/webApplication/src/java/beans/SalonMgr.java</file>
-        </group>
         <group>
             <file>file://MORPHEUS-009/Users/user/Documents/Projet%20Candidat/webApplication/src/java/beans/PorteOuv.hbm.xml</file>
             <file>file://MORPHEUS-009/Users/user/Documents/Projet%20Candidat/webApplication/web/salon/form.jsp</file>
@@ -20,6 +15,9 @@
             <file>file://MORPHEUS-009/Users/user/Documents/Projet%20Candidat/webApplication/web/salon/view.jsp</file>
             <file>file://MORPHEUS-009/Users/user/Documents/Projet%20Candidat/webApplication/src/java/beans/INSEE.hbm.xml</file>
             <file>file://MORPHEUS-009/Users/user/Documents/Projet%20Candidat/webApplication/src/java/beans/SalonBean.java</file>
+        </group>
+        <group name="Projet Candidat">
+            <file>file:/D:/Source/Candidat/webApplication/database/hitema.script.v2.2.sql</file>
         </group>
     </open-files>
 </project-private>
